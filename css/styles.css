@@ -147,6 +147,9 @@ html {
 .form-control {
   transition: all 1s; }
 
+.newsletter-mail {
+  font-size: 1.4rem; }
+
 .carousel-caption {
   background: rgba(45, 48, 49, 0.671);
   border-radius: 0.5rem; }
@@ -218,8 +221,12 @@ input:focus {
   background-color: #343838;
   padding: 2rem; }
 
-.store__img--scale {
-  object-fit: scale-down !important; }
+.store__img {
+  object-fit: scale-down !important;
+  background-color: #00B4CC; }
+
+.btn {
+  background-color: #008C9E; }
 
 a {
   text-decoration: none;
